@@ -32,4 +32,4 @@ In build gradle (Project: myroomdbdemo)
 
 ### 6. Create a Database repository that acts as a manager for multiple data sources if applicable
 
-### 7. Create a View Model that communicates between the user interfaces (UI) and the data repository.
+### 7. Create a View Model that communicates between the user interfaces (UI) and the data repository. 
