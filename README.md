@@ -1,5 +1,5 @@
 # MyRoomDB
-This project aims to show the implementation of Room Database. It also shows how to store image file in the database through image path.
+This project aims to show the implementation of Room Database.
 
 ## Getting Started
 ### 1. Create an android project with empty activity
@@ -22,11 +22,12 @@ In build gradle (Project: myroomdbdemo)
     archLifecycleVersion = '1.1.1'
     }
 --------------------------------
-### 3. Create an entity class
+### 3. Create an entity class with annotation @Entity(tableName="Your Table Name")
 
-![create an entity class](
+<img src="https://github.com/54662579/MyRoomDB/blob/master/image/entity.PNG" />
 
-### 4. Create a Data Access Object (DAO) interface
+### 4. Create a Data Access Object (DAO) interface for CRUD operations
+<img src="" />
 
 ### 5. Create a abstract Room Database class that extends RoomDatabase.
 
