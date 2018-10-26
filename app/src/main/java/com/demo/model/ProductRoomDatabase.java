@@ -34,6 +34,7 @@ public abstract class ProductRoomDatabase extends RoomDatabase {
                             Executors.newSingleThreadExecutor().execute(new Runnable() {
                                 @Override
                                 public void run() {
+                                    //prepopulate some sample data
                                     getDatabase(context).productDao().insertAll(Product.initialiseData());
                                 }
                             });
@@ -46,6 +47,4 @@ public abstract class ProductRoomDatabase extends RoomDatabase {
         }
         return INSTANCE;
     }
-
-
 }

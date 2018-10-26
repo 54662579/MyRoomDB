@@ -18,7 +18,6 @@ public class ProductViewModel extends AndroidViewModel {
 
     public void insert(Product product){ productRepository.insert(product);}
     public void insertAll(Product... products){productRepository.insertAll(products);}
-
     public Product get(int id){return productRepository.get(id);}
     public List<Product> getAll() {return productRepository.getAll(); }
     public void update(Product product){productRepository.update(product);}
