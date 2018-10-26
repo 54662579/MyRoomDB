@@ -119,3 +119,11 @@ In build gradle (Project: myroomdbdemo)
         public void update(Product product){productRepository.update(product);}
         public void delete(Product product){productRepository.delete(product);}
     }
+    
+## Saving/Loading database from Activity
+   * Saving (See AddProduct.java for the implementation detail)                                    
+        <img src="https://github.com/54662579/MyRoomDB/blob/master/image/addnew.PNG" width="200" />
+   * List Loading (See ListProduct.java and RecyclerViewAdapter.java for the implementation detail)
+        <img src="https://github.com/54662579/MyRoomDB/blob/master/image/listproduct.PNG" width="200" />
+
+
